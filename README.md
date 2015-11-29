@@ -6,9 +6,9 @@ You should have
 * Meteor installed 
 
 #Presetup
-git clone https://github.com/oortcloud/node-ddp-client.git
-cd node-ddp-client\examples\example-meteor-server
-meteor
+git clone https://github.com/oortcloud/node-ddp-client.git  
+cd node-ddp-client\examples\example-meteor-server  
+meteor  
 
 Verify your environment
 node examples\example.js
