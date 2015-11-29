@@ -1,4 +1,7 @@
-# A sample application for NativeScript-DDP-Client
+# A sample application for NativeScript-DDP-Client 
+
+The NativeScript-DDP-Client plugin source is here:
+https://github.com/blagoev/nativescript-ddp-client
 
 ## Running:
 You should have
