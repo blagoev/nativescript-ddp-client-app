@@ -10,24 +10,24 @@ git clone https://github.com/oortcloud/node-ddp-client.git
 cd node-ddp-client\examples\example-meteor-server  
 meteor  
 
-Verify your environment
-node examples\example.js
-You should see a bunch of [ADDED] and [REMOVED] messages
+Verify your environment  
+node examples\example.js  
+You should see a bunch of [ADDED] and [REMOVED] messages  
 
-restart meteor server (see Limitations)
+restart meteor server (see Limitations)  
 
-# Run
+# Run  
 
-1.Run the app using 
-tns run android
+1.Run the app using   
+tns run android  
 
-2.forward the ports from the device to the computer
-adb reverse tcp:3000 tcp:3000 
+2.forward the ports from the device to the computer  
+adb reverse tcp:3000 tcp:3000  
 
-3. run 
+3. run  
 adb logcat
 
-The application should output somthing similar
+The application should output somthing similar  
 
 11-29 23:29:11.601: I/TNS.Native(27753): NativeScript Runtime Version 1.5.0, commit 4fb83e3c9c8b4dbf39e214c6a90a070f9240378c
 11-29 23:29:15.148: D/NativeScript-DDP-Client-App(27753):  ddp message: {"server_id":"0"}
