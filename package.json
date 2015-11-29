@@ -5,6 +5,8 @@
 			"version": "1.5.0"
 		}
 	},
+	"author": "Blagoev",
+    "license": "Apache",
 	"dependencies": {
 		"nativescript-ddp-client": "file:..\\nativescript-ddp-client",
 		"tns-core-modules": "1.5.0"
