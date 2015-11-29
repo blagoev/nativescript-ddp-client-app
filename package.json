@@ -8,7 +8,7 @@
 	"author": "Blagoev",
     "license": "Apache",
 	"dependencies": {
-		"nativescript-ddp-client": "file:..\\nativescript-ddp-client",
+		"nativescript-ddp-client": "git+https://github.com/blagoev/nativescript-ddp-client.git",
 		"tns-core-modules": "1.5.0"
 	},
 	"devDependencies": {
