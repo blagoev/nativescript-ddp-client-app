@@ -3,5 +3,14 @@
     <Label text="Tap the button" class="title"/>
     <Button text="TAP" tap="{{ tapAction }}" />
     <Label text="{{ message }}" class="message" textWrap="true"/>
+    
+    <ListView items="{{ posts }}" id="postsId">
+			<ListView.itemTemplate>
+				<GridLayout columns="*">
+					<Label text="{{ name }}" />
+				</GridLayout>
+			</ListView.itemTemplate>
+		</ListView>
+    
   </StackLayout>
 </Page>
